@@ -12,7 +12,7 @@
       </div>
       <div class="info" v-else>
         <span class="text-accepted"
-          >Укажите цену, которую хотите<br />доплатить за автомобиль</span
+          >Укажите цену, которую хотите доплатить за автомобиль</span
         >
         <input type="text" v-model="surcharge" />
       </div>
@@ -82,6 +82,7 @@ export default {
     font-family: Gilroy;
     font-weight: bold;
     color: #fff;
+    width: 22.5520833333vw;
     overflow: hidden;
     position: relative;
 
