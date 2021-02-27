@@ -69,6 +69,7 @@ export default {
   position: relative;
 
   .content {
+    box-sizing: border-box;
     padding: 0 1.6666666667vw 1.6666666667vw;
     display: flex;
     flex-direction: column;

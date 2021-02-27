@@ -26,13 +26,13 @@ export default {
       timestamp: Date.now(),
       gangs: [
         {
-          name: "ballas",
-          score: 19,
+          name: "la cosa nostra",
+          score: 999,
           color: "#D765FF",
         },
         {
           name: "families",
-          score: 16,
+          score: 999,
           color: "#8CFF46",
         },
       ],
@@ -70,6 +70,9 @@ export default {
 }
 
 .capture-score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-family: Gilroy;
   color: #fff;
   position: absolute;
@@ -91,7 +94,7 @@ export default {
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 3.90625vw;
+      width: 5.46875vw;
       font-weight: bold;
       font-size: 2.5vw;
     }
@@ -115,6 +118,7 @@ export default {
   }
 
   .versus {
+    box-sizing: border-box;
     padding: 0.3125vw;
     margin: 0.5208333333vw auto 0 auto;
     border-radius: 0.15625vw;
